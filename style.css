@@ -1,6 +1,14 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+.nav {
     background-color: #9dc1de;
-    color: #f8f8f8;
 }
 
 .nav-link{
@@ -10,7 +18,8 @@ body {
 }
 
 .jumbotron {
-    background-color: transparent;
+    background-color: #9dc1de;
+    color: #f8f8f8;
 }
 
 .display-4 {
@@ -25,3 +34,36 @@ h2 {
     color: #649dcb;
 }
 
+.content-header {
+    padding: 15px;
+}
+
+.card {
+    color: #649dcb;
+    height: 320px;
+}
+
+.card-img {
+    height: 225px;
+    width: 100%;
+}
+
+.card-text {
+    color: #649dcb;
+}
+
+
+.ul-social {
+    text-align: center;
+    padding-left: 0;
+  }
+  
+  .li-link-social {
+    display: inline-block;
+    list-style: none;
+  }
+
+  .social {
+    color: #f8f8f8;
+    padding: 20px;
+  }
