@@ -1,69 +1,116 @@
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
 body {
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
 }
 
-.nav {
-    background-color: #9dc1de;
+.navbar {
+  background-color: #9dc1de;
+  font-weight: 500;
+  color: #f8f8f8;
 }
 
-.nav-link{
-    font-weight: 500;
-    color: #f8f8f8;
-   
+
+
+.navbar-brand {
+  color: #f8f8f8;
 }
 
 .jumbotron {
-    background-color: #9dc1de;
-    color: #f8f8f8;
+  background-color: #9dc1de;
+  color: #f8f8f8;
+  border-top: solid 1px #649dcb;
 }
 
 .display-4 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .lead {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 h2 {
-    color: #649dcb;
+  color: #649dcb;
+  text-transform: uppercase;
+}
+
+#bio {
+  color: #242624
 }
 
 .content-header {
-    padding: 15px;
+  padding: 15px;
 }
 
 .card {
-    color: #649dcb;
-    height: 320px;
+  color: #649dcb;
+  height: 100%;
+}
+
+.card-title {
+  font-weight: 500;
 }
 
 .card-img {
-    height: 225px;
-    width: 100%;
+  height: 225px;
+  width: 105%;
 }
 
 .card-text {
-    color: #649dcb;
+  color: #649dcb;
 }
 
+.project-text {
+  color: #242624
+}
 
 .ul-social {
-    text-align: center;
-    padding-left: 0;
-  }
-  
-  .li-link-social {
-    display: inline-block;
-    list-style: none;
-  }
+  text-align: center;
+  padding-left: 0;
+}
 
-  .social {
-    color: #f8f8f8;
-    padding: 20px;
-  }
+.li-link-social {
+  display: inline-block;
+  list-style: none;
+}
+
+.social {
+  color: #f8f8f8;
+  padding: 20px;
+}
+
+.ul-skills {
+  text-align: center;
+  padding-left: 0;
+}
+
+.li-skills {
+  display: inline-block;
+  list-style: none;
+  margin: 6px;
+  padding: 5px 10px;
+  color: #f8f8f8;
+  background-color: #649dcb;
+  cursor: default;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #9dc1de;
+  border-top: 1px solid #649dcb;
+}
+
+.text-footer {
+  padding-top: 6px;
+  margin-top: 15px;
+  color: #f8f8f8;
+  font-size: 14px;
+}
