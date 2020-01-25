@@ -16,24 +16,30 @@
 
 <body>
 
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link active" href="#one">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#skills">Resume & Skills</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-        </li>
-    </ul>
 
+    <nav id="one" class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Rachel's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#resume">Resume & Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="jumbotron jumotron-fluid">
         <div class="container">
-            <h1 class="display-4 text-center">RACHEL ROHRBACH</h1>
+            <h1 class="display-4 text-center">Rachel Rohrbach</h1>
             <p class="lead text-center">Full Stack Web Developer in Seattle, Washington</p>
             <div class="jumbotron-social">
                 <ul class="ul-social mx-auto">
@@ -54,26 +60,28 @@
         <div class="col-md-12 bg-white">
             <div id="about" class="content-header text-center">
                 <a class="anchor" name="about"></a>
-                <h2>ABOUT</h2>
+                <h2>About</h2>
             </div>
             <div class="content-body">
                 <div class="row">
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
-                        <p>
-                            I'm an aspiring developer currently enrolled in the University of Washington Coding Full Stack Web Development Boot Camp
+                        <p id="bio" class="text-center">
+                            I'm an aspiring web developer currently enrolled in the University of Washington
+                            Coding Full
+                            Stack Web Development Boot Camp
                             with a passion for making responsive, user-friendly websites.
-                            Well-organized, collaborative individual with a strong work ethic, and a passion for
-                            continuous
-                            learning. When I’m not attending class or studying, I enjoy cooking, traveling, reading,
+                            I am well-organized and collaborative with a strong work ethic, bringing a background in
+                            hospitality and event management. When I’m not attending class or studying, I enjoy
+                            cooking,
+                            traveling, reading,
                             playing
                             the
-                            world’s only 10-player arcade game Killer Queen, and spending time with friends and family.
-                            Upon
-                            completion of the boot camp I’m looking forward to using my software developer skills to
-                            work in
-                            the
-                            non-profit field.
+                            world’s only 10-player arcade game Killer Queen, and spending time with friends and
+                            family.
+                            Upon completion of the boot camp I’m looking forward to the opportunity to apply my
+                            new
+                            skills in the non-profit field.
                         </p>
                     </div>
                     <div class="col-md-1"></div>
@@ -81,31 +89,50 @@
             </div>
         </div>
     </div>
-
+    <hr>
     <div class="row">
         <div class="col-md-12 bg-white">
-            <div id="skills" class="content-header text-center">
+            <div id="resume" class="content-header text-center">
                 <a class="anchor" name="resume"></a>
-                <h2>SKILLS</h2>
+                <h2>Resume & Skills</h2>
             </div>
             <div class="content-body">
-                <p>
-
-                </p>
-
+                <ul class="ul-skills">
+                    <li class="li-skills">HTML</li>
+                    <li class="li-skills">CSS</li>
+                    <li class="li-skills">JavaScript</li>
+                    <li class="li-skills">jQuery</li>
+                    <li class="li-skills">Bootstrap</li>
+                    <li class="li-skills">Git</li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        See resume on GitHub
+                        <a class="dark-link text-center"
+                            href="https://github.com/rachelrohrbach/resume/blob/master/Rachel-Rohrbach-Resume.pdf"
+                            target="_blank">
+                            here
+                        </a>.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <hr>
+
     <div class="row">
         <div class="col-md-12 bg-white">
             <div id="projects" class="content-header text-center">
                 <a class="anchor" name="about"></a>
-                <h2>PROJECTS</h2>
+                <h2>Projects</h2>
             </div>
 
             <div class="content-body">
                 <div class="row">
-                    <div class="card mb-3 mx-auto" style="max-width: 80%;">
+                    <div class="card mb-3 mx-auto shadow p-3 mb-5 bg-white rounded" style="max-width: 80%;">
                         <div class="row">
                             <div class="col-md-4">
                                 <img src="assets/images/pet-search-screenshot.png" class="card-img" alt="screenshot">
@@ -113,7 +140,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Adopt-A-Pet</h5>
-                                    <p class="card-text"><small class="text-muted">This project is an animal
+                                    <p class="card-text"><small class="project-text">This project is an animal
                                             adoption search and pet resources mapping website. It takes in
                                             user input to search the RescueGroups.org API for cats or dogs
                                             that are available for adoption from adoption agencies. It
@@ -134,7 +161,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="card mb-3 mx-auto" style="max-width: 80%;">
+                    <div class="card mb-3 mx-auto shadow p-3 mb-5 bg-white rounded" style="max-width: 80%;">
                         <div class="row">
                             <div class="col-md-4">
                                 <img src="assets/images/code-quiz-screenshot.png" class="card-img"
@@ -143,12 +170,18 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Code Quiz</h5>
-                                    <p class="card-text"><small class="text-muted">This project is a timed quiz that
-                                            tests the user’s code-based knowledge. It calculates the user’s score by the
-                                            time remaining. Answering quickly and correctly results in a higher score.
-                                            Answering incorrectly results in a time penalty. When the timer runs out
-                                            and/or all questions are answered, the user inputs their initials to save
-                                            the score locally on a high score list with up to 10 of the highest scores.
+                                    <p class="card-text"><small class="project-text">This project is a timed quiz
+                                            that
+                                            tests the user’s code-based knowledge. It calculates the user’s
+                                            score by the
+                                            time remaining. Answering quickly and correctly results in a higher
+                                            score.
+                                            Answering incorrectly results in a time penalty. When the timer runs
+                                            out
+                                            and/or all questions are answered, the user inputs their initials to
+                                            save
+                                            the score locally on a high score list with up to 10 of the highest
+                                            scores.
                                         </small></p>
                                     <a class="card-text" href="https://rachelrohrbach.github.io/code-quiz/">Code
                                         Quiz</a>
@@ -160,9 +193,52 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="card mb-3 mx-auto shadow p-3 mb-5 bg-white rounded" style="max-width: 80%;">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/images/weather-dashboard-screenshot.png" class="card-img"
+                                    alt="screenshot code quiz">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Weather Dashboard</h5>
+                                    <p class="card-text"><small class="project-text">This project is a weather
+                                            dashboard
+                                            app with search functionality to find current weather conditions
+                                            and
+                                            forecasted weather for multiple cities. It uses the OpenWeather
+                                            API to
+                                            retrieve data for the cities, AJAX to hook into the API to
+                                            retrieve the data
+                                            in JSON format, dynamically updated HTML and CSS powered by
+                                            jQuery, and
+                                            displays a search history which the user can click to access
+                                            past cities
+                                            searched via local storage.
+                                        </small></p>
+                                    <a class="card-text" href="https://rachelrohrbach.github.io/weather-dashboard/">Code
+                                        Quiz</a>
+                                    <br>
+                                    <a class="card-text"
+                                        href="https://github.com/rachelrohrbach/weather-dashboard">GitHub
+                                        Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+
+    <footer class="footer">
+        <p class="text-footer text-center">
+            &copy; Copyright 2019 by Rachel Rohrbach
+        </p>
+    </footer>
+
 
 
 
