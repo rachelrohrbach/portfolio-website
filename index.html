@@ -9,7 +9,9 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/70fcd40144.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" class="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -19,52 +21,151 @@
             <a class="nav-link active" href="#one">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#two">About</a>
+            <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#three">Resume</a>
+            <a class="nav-link" href="#skills">Resume & Skills</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#four">Projects</a>
+            <a class="nav-link" href="#projects">Projects</a>
         </li>
     </ul>
 
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumotron-fluid">
         <div class="container">
-            <h1 class="display-4 text-center">Rachel Rohrbach</h1>
+            <h1 class="display-4 text-center">RACHEL ROHRBACH</h1>
             <p class="lead text-center">Full Stack Web Developer in Seattle, Washington</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-12 bg-white">
-            <div class="content-header text-center">
-                <a class="anchor" name="about"></a>
-                <h2>About</h2>
-            </div>
-            <div class="content-body">
-                <p>
-                
-                </p>
-
+            <div class="jumbotron-social">
+                <ul class="ul-social mx-auto">
+                    <li class="li-link-social">
+                        <a class="social" href="https://github.com/rachelrohrbach" target="_blank">
+                            <i class="fab fa-github fa-3x" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="li-link-social">
+                        <a class="social" href="https://www.linkedin.com/in/rachelrohrbach/" target="_blank">
+                            <i class="fab fa-linkedin fa-3x" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
 
     <div class="row">
         <div class="col-md-12 bg-white">
-            <div class="content-header text-center">
+            <div id="about" class="content-header text-center">
                 <a class="anchor" name="about"></a>
-                <h2>Skills</h2>
+                <h2>ABOUT</h2>
+            </div>
+            <div class="content-body">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <p>
+                            I'm an aspiring developer currently enrolled in the University of Washington Coding Full Stack Web Development Boot Camp
+                            with a passion for making responsive, user-friendly websites.
+                            Well-organized, collaborative individual with a strong work ethic, and a passion for
+                            continuous
+                            learning. When I’m not attending class or studying, I enjoy cooking, traveling, reading,
+                            playing
+                            the
+                            world’s only 10-player arcade game Killer Queen, and spending time with friends and family.
+                            Upon
+                            completion of the boot camp I’m looking forward to using my software developer skills to
+                            work in
+                            the
+                            non-profit field.
+                        </p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 bg-white">
+            <div id="skills" class="content-header text-center">
+                <a class="anchor" name="resume"></a>
+                <h2>SKILLS</h2>
             </div>
             <div class="content-body">
                 <p>
-                
+
                 </p>
 
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-12 bg-white">
+            <div id="projects" class="content-header text-center">
+                <a class="anchor" name="about"></a>
+                <h2>PROJECTS</h2>
+            </div>
+
+            <div class="content-body">
+                <div class="row">
+                    <div class="card mb-3 mx-auto" style="max-width: 80%;">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/images/pet-search-screenshot.png" class="card-img" alt="screenshot">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Adopt-A-Pet</h5>
+                                    <p class="card-text"><small class="text-muted">This project is an animal
+                                            adoption search and pet resources mapping website. It takes in
+                                            user input to search the RescueGroups.org API for cats or dogs
+                                            that are available for adoption from adoption agencies. It
+                                            retrieves the data in a JSON format and dynamically updates the
+                                            HTML and CSS via jQuery and JavaScript to display the animals
+                                            available. It also offers the user resources like vets, pet
+                                            stores, etc. using the Google Maps JavaScript API and Google
+                                            Places library based on the user's location.
+                                        </small></p>
+                                    <a class="card-text"
+                                        href="https://rachelrohrbach.github.io/pet-adoption/">Adopt-A-Pet</a>
+                                    <br>
+                                    <a class="card-text" href="https://github.com/rachelrohrbach/pet-adoption">GitHub
+                                        Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card mb-3 mx-auto" style="max-width: 80%;">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/images/code-quiz-screenshot.png" class="card-img"
+                                    alt="screenshot code quiz">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Code Quiz</h5>
+                                    <p class="card-text"><small class="text-muted">This project is a timed quiz that
+                                            tests the user’s code-based knowledge. It calculates the user’s score by the
+                                            time remaining. Answering quickly and correctly results in a higher score.
+                                            Answering incorrectly results in a time penalty. When the timer runs out
+                                            and/or all questions are answered, the user inputs their initials to save
+                                            the score locally on a high score list with up to 10 of the highest scores.
+                                        </small></p>
+                                    <a class="card-text" href="https://rachelrohrbach.github.io/code-quiz/">Code
+                                        Quiz</a>
+                                    <br>
+                                    <a class="card-text" href="https://github.com/rachelrohrbach/code-quiz">GitHub
+                                        Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 
 
 
