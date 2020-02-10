@@ -23,12 +23,12 @@ Link to my deployed github page: https://rachelrohrbach.github.io/portfolio-webs
 
 
 # Credits
-I consulted Bootstrap 4 (https://getbootstrap.com/) and W3Schools (https://www.w3schools.com/howto/howto_css_smooth_scroll.asp) extensively in creating my project. Some other resources that I used include: Stack Overflow (#https://stackoverflow.com/), the GitLab repository for my course, specifically referencing the in-class activities and the ReadMe for homework 8. 
+I consulted Bootstrap 4 (https://getbootstrap.com/) and W3Schools (https://www.w3schools.com/howto/howto_css_smooth_scroll.asp) extensively in creating my project. Some other resources that I used include: Stack Overflow (#https://stackoverflow.com/), the GitLab repository for my course, specifically referencing the in-class activities and the ReadMe for homework 8. de
 
 ## License
 MIT License
 
-Copyright (c) [2019] [Rachel Rohrbach]
+Copyright (c) [2020] [Rachel Rohrbach]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
