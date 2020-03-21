@@ -105,6 +105,10 @@
                     <li class="li-skills">jQuery</li>
                     <li class="li-skills">Bootstrap</li>
                     <li class="li-skills">Git</li>
+                    <li class="li-skills">Node</li>
+                    <li class="li-skills">Handlebars</li>
+                    <li class="li-skills">MySQL</li>
+                    <li class="li-skills">MongoDB</li>
                 </ul>
             </div>
             <div class="container">
@@ -130,13 +134,42 @@
                 <a class="anchor" name="about"></a>
                 <h2>Projects</h2>
             </div>
-
             <div class="content-body">
                 <div class="row">
-                    <div class="card mb-3 mx-auto shadow p-3 mb-5 bg-white rounded" style="max-width: 80%;">
+                    <div class="card mb-3 mx-auto shadow p-3 mb-5 bg-white rounded" style="max-width: 95%;">
                         <div class="row">
                             <div class="col-md-4">
-                                <img src="assets/images/burgers-screenshot.png" class="card-img" alt="screenshot" width="100px" height="100px">
+                                <img src="assets/images/mothra_dashboard.png" class="card-img" alt="mothra screenshot">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mothra</h5>
+                                    <p class="card-text"><small class="project-text">Mothra is a project planning
+                                            application inspired by JIRA. It is a full-stack application that uses
+                                            JavaScript, jQuery, Node, Express, Handlebars, MySQL and Sequelize that was
+                                            developed over 2 weeks by a 4 person group. Mothra allows users to create
+                                            projects which are assigned to a team. A team consists of multiple
+                                            users/employees. Users can also create tasks for a specific project. Each
+                                            project consists of many tasks. Each task can be assigned to one
+                                            user/employee, whose team is responsible for the project. Each task has
+                                            state of (new, in-progress, complete, closed).
+                                        </small></p>
+                                    <a class="card-text" href="https://the-best-project-manager.herokuapp.com/">Deployed
+                                        Application</a>
+                                    <br>
+                                    <a class="card-text"
+                                        href="https://github.com/maximilianc88/Project-Planner-Application">GitHub
+                                        Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card mb-3 mx-auto shadow p-3 mb-5 bg-white rounded" style="max-width: 95%;">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/images/burgers-screenshot.png" class="card-img" alt="screenshot">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -152,7 +185,7 @@
                                             every burger in a database, whether devoured or not.
                                         </small></p>
                                     <a class="card-text"
-                                        href="https://evening-bayou-25102.herokuapp.com/">Adopt-A-Pet</a>
+                                        href="https://evening-bayou-25102.herokuapp.com/">Deployed Application</a>
                                     <br>
                                     <a class="card-text" href="https://github.com/rachelrohrbach/burger">GitHub
                                         Repository</a>
@@ -162,23 +195,26 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="card mb-3 mx-auto shadow p-3 mb-5 bg-white rounded" style="max-width: 80%;">
+                    <div class="card mb-3 mx-auto shadow p-3 mb-5 bg-white rounded" style="max-width: 95%;">
                         <div class="row">
                             <div class="col-md-4">
-                                <img src="assets/images/html-screenshot.png" class="card-img"
-                                    alt="screenshot template engine">
+                                <img src="assets/images/employee-tracker.png" class="card-img"
+                                    alt="employee tracker screenshot">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Employee Summary Template Engine</h5>
-                                    <p class="card-text"><small class="project-text">TThis project is a command-line
-                                            application that uses Node.js as a run-time environment for the JavaScript
-                                            to dynamically generate an html page about a software
-                                            engineering team based on user provided information. It also features unit
-                                            tests and implements the test driven development technique.
+                                    <h5 class="card-title">Employee Tracker</h5>
+                                    <p class="card-text"><small class="project-text">This project is a command-line
+                                            application that makes it easy for non-developers to view and interact with
+                                            information stored in a database. With Employee Tracker the user manages a
+                                            company's employees using an interface that works with NodeJS,
+                                            express,
+                                            inquirer, and MySQL. The user is prompted with a list of choices to view,
+                                            add, update or delete the database, and the information is displayed to them
+                                            in an easy to view table in the console.
                                         </small></p>
                                     <a class="card-text"
-                                        href="https://github.com/rachelrohrbach/employee-template-engine">GitHub
+                                        href="https://github.com/rachelrohrbach/employee-tracker">GitHub
                                         Repository</a>
                                 </div>
                             </div>
@@ -186,67 +222,29 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="card mb-3 mx-auto shadow p-3 mb-5 bg-white rounded" style="max-width: 80%;">
+                    <div class="card mb-3 mx-auto shadow p-3 mb-5 bg-white rounded" style="max-width: 95%;">
                         <div class="row">
                             <div class="col-md-4">
-                                <img src="assets/images/code-quiz-screenshot.png" class="card-img"
-                                    alt="screenshot code quiz">
+                                <img src="assets/images/pet-search-screenshot.png" class="card-img" alt="screenshot">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Code Quiz</h5>
-                                    <p class="card-text"><small class="project-text">This project is a timed quiz
-                                            that
-                                            tests the user’s code-based knowledge. It calculates the user’s
-                                            score by the
-                                            time remaining. Answering quickly and correctly results in a higher
-                                            score.
-                                            Answering incorrectly results in a time penalty. When the timer runs
-                                            out
-                                            and/or all questions are answered, the user inputs their initials to
-                                            save
-                                            the score locally on a high score list with up to 10 of the highest
-                                            scores.
-                                        </small></p>
-                                    <a class="card-text" href="https://rachelrohrbach.github.io/code-quiz/">Code
-                                        Quiz</a>
-                                    <br>
-                                    <a class="card-text" href="https://github.com/rachelrohrbach/code-quiz">GitHub
-                                        Repository</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="card mb-3 mx-auto shadow p-3 mb-5 bg-white rounded" style="max-width: 80%;">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img src="assets/images/weather-dashboard-screenshot.png" class="card-img"
-                                    alt="screenshot code quiz">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Weather Dashboard</h5>
-                                    <p class="card-text"><small class="project-text">This project is a weather
-                                            dashboard
-                                            app with search functionality to find current weather conditions
-                                            and
-                                            forecasted weather for multiple cities. It uses the OpenWeather
-                                            API to
-                                            retrieve data for the cities, AJAX to hook into the API to
-                                            retrieve the data
-                                            in JSON format, dynamically updated HTML and CSS powered by
-                                            jQuery, and
-                                            displays a search history which the user can click to access
-                                            past cities
-                                            searched via local storage.
+                                    <h5 class="card-title">Adopt-A-Pet</h5>
+                                    <p class="card-text"><small class="project-text">This project is an animal
+                                            adoption search and pet resources mapping website that was developed by a
+                                            3-person group over the course of 2 weeks. It takes in
+                                            user input to search the RescueGroups.org API for cats or dogs
+                                            that are available for adoption from adoption agencies. It
+                                            retrieves the data in a JSON format and dynamically updates the
+                                            HTML and CSS via jQuery and JavaScript to display the animals
+                                            available. It also offers the user resources like vets, pet
+                                            stores, etc. using the Google Maps JavaScript API and Google
+                                            Places library based on the user's location.
                                         </small></p>
                                     <a class="card-text"
-                                        href="https://rachelrohrbach.github.io/weather-dashboard/">Weather Dashboard</a>
+                                        href="https://rachelrohrbach.github.io/pet-adoption/">Deployed Application</a>
                                     <br>
-                                    <a class="card-text"
-                                        href="https://github.com/rachelrohrbach/weather-dashboard">GitHub
+                                    <a class="card-text" href="https://github.com/rachelrohrbach/pet-adoption">GitHub
                                         Repository</a>
                                 </div>
                             </div>
@@ -260,7 +258,7 @@
 
     <footer class="footer">
         <p class="text-footer text-center">
-            &copy; Copyright 2019 by Rachel Rohrbach
+            &copy; Copyright 2020, Rachel Rohrbach
         </p>
     </footer>
 
