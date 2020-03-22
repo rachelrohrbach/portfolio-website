@@ -19,7 +19,8 @@ This project is created with:
 
 ## Screenshot
 ![project screenshot](assets/images/portfolio-screenshot-updated.png)
-Link to my deployed github page: 
+
+Link to my deployed github page: https://rachelrohrbach.github.io/portfolio-website/
 
 
 # Credits
