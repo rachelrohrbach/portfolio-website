@@ -16,6 +16,7 @@ This project is created with:
 * CSS
 * Font Awesome
 * Google Fonts
+* HTML
 
 ## Screenshot
 ![project screenshot](assets/images/portfolio-screenshot-updated.png)
