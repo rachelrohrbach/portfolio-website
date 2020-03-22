@@ -8,7 +8,7 @@
 * [License](#license)
 
 ## General info
-This project is my personal web developer portfolio. This project is an improvement on a former website that I built at the beginning of my software boot camp as I build toward being employer competitive. It now contains actual examples of my work featuring some exemplary homework assignments and my first collaborative coding project, as well as links to my GitHub repository, deployed projects, LinkedIn profile and resume. 
+This project is my personal web developer portfolio. This project is an improvement on a former website that I built at the beginning of my software boot camp and an updated version that I built a few months ago as I build toward being employer competitive. It contains actual examples of my work including 2 collaborative coding projects and some exemplary homework assignments as well as links to my GitHub repository, deployed projects, LinkedIn profile and resume. 
 	
 ## Technologies
 This project is created with: 
@@ -18,8 +18,8 @@ This project is created with:
 * Google Fonts
 
 ## Screenshot
-![project screenshot](\assets\images\portfolio-screenshot.png)
-Link to my deployed github page: https://rachelrohrbach.github.io/portfolio-website/
+![project screenshot](assets/images/portfolio-screenshot-updated.png)
+Link to my deployed github page: 
 
 
 # Credits
